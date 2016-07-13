@@ -21,10 +21,11 @@ grad = zeros(size(theta));
 %
 
 myPredictions = sigmoid(X * theta);
-errors = y*log(myPredictions) + (1-y)*(1-myPredictions); 
+errors = y.*log(myPredictions) + (1-y).*log(1-myPredictions); 
 J = (-1.0/m) * sum(errors); %the cost
-
-grad = (1.0/m) * sum(myPredictions - y)
+grad(1) = (1.0/m) * sum((myPredictions - y).*X(:, 1));
+grad(2) = (1.0/m) * sum((myPredictions - y).*X(:, 2));
+grad(3) = (1.0/m) * sum((myPredictions - y).*X(:, 3));
 
 
 
