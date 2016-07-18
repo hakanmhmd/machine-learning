@@ -5,4 +5,4 @@ Topics
 ------
 1. Linear regression, Cost function, Gradient Descent, Normal equation
 2. Logistic regression, Classification, Multiclass classification(one vs all)
-3. Neural networks
+3. Neural networks, Hidden layers
