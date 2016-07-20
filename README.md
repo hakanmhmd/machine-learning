@@ -7,4 +7,4 @@ Topics
 2. Logistic regression, Classification, Multiclass classification(one vs all)
 3. Neural networks, Hidden layers
 4. Forward propagation, Backpropagation, Gradient Checking
-5. Evaluating a learning algorithm, Cross validation, Model selection
+5. Evaluating a learning algorithm, Cross validation, Model selection, LR with Bias/Variance
