@@ -8,3 +8,5 @@ Topics
 3. Neural networks, Hidden layers
 4. Forward propagation, Backpropagation, Gradient Checking
 5. Evaluating a learning algorithm, Cross validation, Model selection, LR with Bias/Variance
+6. Support Vector Machines, Kernels
+7. K-Means Clustering (Unsupervised learning), Dimensionality Reduction with Principal Component Analysis
